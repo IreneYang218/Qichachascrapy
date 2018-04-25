@@ -1,5 +1,6 @@
 # Qichachascrapy
 
+- Created at 24th, April., 2018
 - Collecting companies' information from qichacha.com.
 - Information contain basic info, shareholders, investing, financial reports etc.
 - Removing "#" to collect more information.           
