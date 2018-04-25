@@ -26,7 +26,7 @@ class QichachaSpider(scrapy.Spider):
     
     def start_requests(self):
         item =  QichachascrapyItem()
-        with open (("maoyi.csv"),"rU", newline = '') as f:
+        with open (("example.csv"),"rU", newline = '') as f:
             for line in csv.reader(f):
                 #print(line)
                 item['firm_searchname'] = line[0]
